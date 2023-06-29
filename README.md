@@ -63,3 +63,15 @@ After succesful configuration of our web root directory, i'm going to link the c
 
 `sudo ln -s /etc/nginx/sites-available/projectLEMP /etc/nginx/sites-enabled/`
 
+After this successful linking, i'm going to check for syntax error with the command: `sudo nginx -t`
+
+I'm also going to disable default Nginx host that is currently configured to listen on port 80, runing the command: 
+
+`sudo unlink /etc/nginx/sites-enabled/default` and reload my Nginx.
+
+Since my web root folder var/www/Projectlemp is empty, i'm going to create an index.html file inside it to test if the server block works well using the echo command: 
+
+`sudo echo 'Hello LEMP from hostname' $(curl -s http://169.254.169.254/latest/meta-data/public-hostname) 'with public IP' $(curl -s http://169.254.169.254/latest/meta-data/public-ipv4) > /var/www/projectLEMP/index.html`
+
+The image below of my browser will show if my echo command works well:
+
