@@ -78,3 +78,11 @@ Since my web root folder var/www/Projectlemp is empty, i'm going to create an in
 
 The image below of my browser will show if my echo command works well:
 
+![Screenshot 2023-06-28 061313](https://github.com/opeyemiogungbe/PBL-project2/assets/136735745/ffb23c58-0dd0-4126-817e-5221ae8e54bc)
+
+Now that my LEMP stack is now fully configured. I'll be creating a PHP script for Nginx to handle .php files within the newly configured website using the nano command.
+
+`sudo nano /var/www/projectLEMP/info.php` 
+
+After putting the Php code inside the .Php file, i'll check my browser if the configuration was successful. the image below will show thhat:
+
