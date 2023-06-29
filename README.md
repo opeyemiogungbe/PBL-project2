@@ -63,6 +63,9 @@ After succesful configuration of our web root directory, i'm going to link the c
 
 `sudo ln -s /etc/nginx/sites-available/projectLEMP /etc/nginx/sites-enabled/`
 
+![Screenshot 2023-06-28 060855](https://github.com/opeyemiogungbe/PBL-project2/assets/136735745/3d9879ac-2468-4981-831d-3b66b709a48f) 
+
+
 After this successful linking, i'm going to check for syntax error with the command: `sudo nginx -t`
 
 I'm also going to disable default Nginx host that is currently configured to listen on port 80, runing the command: 
