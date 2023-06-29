@@ -16,3 +16,15 @@ And i'm going to verify our installation by running the command:
 ![Screenshot 2023-06-28 052818](https://github.com/opeyemiogungbe/PBL-project2/assets/136735745/4ce7a53f-62f8-4005-9c60-0fa68d7d5dbe)
 
 After successful installation of the Nginx , i'm going to check my web browser to also confirm if our Nginx is working perfectly and share the image below:
+![Screenshot 2023-06-28 053054](https://github.com/opeyemiogungbe/PBL-project2/assets/136735745/e756bcb2-dc46-43c6-a1e6-91f38a2b12f5)
+
+
+## 2- INSTALLING MYSQL
+
+ As i stated in my project 1 report, MySql is a Database Management System (DBMS) to be able to store and manage data for our site in a relational database. so i'm going to go ahead and instaall MySql running the command: 
+
+` sudo apt install mysql-server`
+
+and check for successful  installation running the command: 
+
+`sudo mysql`
