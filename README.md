@@ -57,3 +57,9 @@ Then i'm going to open a new configuration file in Nginx’s sites-available dir
 
 The image below will show my configuration: 
 
+![Screenshot 2023-06-28 060701](https://github.com/opeyemiogungbe/PBL-project2/assets/136735745/f90508c2-9e42-4e6c-b784-5540272e9c30)
+
+After succesful configuration of our web root directory, i'm going to link the config file from Nginx’s sites-enabled directory running the command:
+
+`sudo ln -s /etc/nginx/sites-available/projectLEMP /etc/nginx/sites-enabled/`
+
