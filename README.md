@@ -8,6 +8,8 @@ After connecting my AWS/Ubuntu on my terminal and updating the necessary package
 
 NGINX is a popular webserver that is known for its reliability, speed and scalability. It has the ability to handle a lot of connections and high-traffic website with speed. i'm going to install the webserver by running the command: 
 
-`sudo apt install nginx -y` 
+`sudo apt install nginx -y` the flag y means an automatic yes to any necessary request made during installation.
 
-And we are going to verify our installation 
+And i'm going to verify our installation by running the command: 
+
+`sudo systemctl status nginx` 
