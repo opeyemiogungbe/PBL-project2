@@ -35,3 +35,25 @@ After this sucessful installation, i'm going to set up a password for the root u
 
 ` sudo mysql -p` the p flag is meant to prompt for the password after changing the root use Password.
 
+![Screenshot 2023-06-28 053948](https://github.com/opeyemiogungbe/PBL-project2/assets/136735745/e7bd877d-c08e-435d-b0c4-8c59a395cd42)
+
+Now that Mysql is successfully installed, i'll go to the next step which is installing Php.
+
+ ## 3 – INSTALLING PHP
+
+I'm going to install PHP to process code and generate dynamic content for my web server. i'm going to install php-fpm, which stands for “PHP fastCGI process manager”, and tell Nginx to pass PHP requests to this software for processing. Additionally, i'll need php-mysql, a PHP module that allows PHP to communicate with MySQL-based databases. To install these two, i'm going to run the command:
+
+`sudo apt install php-fpm php-mysql`
+
+## 4- CONFIGURING NGINX TO USE PHP PROCESSOR
+
+In this stage, i'm going to create a directory structure called Projectlemp withing our default directory var/www/html. creating this directory will allow Nginx to serve me when hosting multiple website.
+
+First i'm going to create a root directory for my domain running the command:
+
+`sudo mkdir /var/www/projectLEMP`
+
+Then i'm going to open a new configuration file in Nginx’s sites-available directory using the Nano command-line Editor instead of vi or vim. i'm running the command `sudo nano /etc/nginx/sites-available/projectLEMP`
+
+The image below will show my configuration: 
+
