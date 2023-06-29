@@ -86,3 +86,7 @@ Now that my LEMP stack is now fully configured. I'll be creating a PHP script fo
 
 After putting the Php code inside the .Php file, i'll check my browser if the configuration was successful. the image below will show thhat:
 
+![Screenshot 2023-06-28 061805](https://github.com/opeyemiogungbe/PBL-project2/assets/136735745/c73b394b-f29c-40aa-85a9-db91a408ae81)
+
+
+![Screenshot 2023-06-28 062126](https://github.com/opeyemiogungbe/PBL-project2/assets/136735745/b021d130-f158-428a-9953-26506e933e92)
