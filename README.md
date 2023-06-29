@@ -13,3 +13,6 @@ NGINX is a popular webserver that is known for its reliability, speed and scalab
 And i'm going to verify our installation by running the command: 
 
 `sudo systemctl status nginx` 
+![Screenshot 2023-06-28 052818](https://github.com/opeyemiogungbe/PBL-project2/assets/136735745/4ce7a53f-62f8-4005-9c60-0fa68d7d5dbe)
+
+After successful installation of the Nginx , i'm going to check my web browser to also confirm if our Nginx is working perfectly and share the image below:
