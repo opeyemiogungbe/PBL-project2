@@ -27,4 +27,11 @@ After successful installation of the Nginx , i'm going to check my web browser t
 
 and check for successful  installation running the command: 
 
-`sudo mysql`
+`sudo mysql` 
+![Screenshot 2023-06-28 053521](https://github.com/opeyemiogungbe/PBL-project2/assets/136735745/557f6770-b622-4e43-9996-701b291f0ca2)
+
+
+After this sucessful installation, i'm going to set up a password for the root user before running the interactive script and setting up the necessary password. i'll run the command below to show our password was setup successfully: 
+
+` sudo mysql -p` the p flag is meant to prompt for the password after changing the root use Password.
+
