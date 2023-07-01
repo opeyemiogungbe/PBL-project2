@@ -112,8 +112,10 @@ Now i'm going to give the user permission over the projectlemp_database with the
 
 `mysql> GRANT ALL ON projectlemp_database.* TO 'example_user'@'%'; then exit Mysql.
 `
-
+![Screenshot 2023-06-30 090134](https://github.com/opeyemiogungbe/PBL-project2/assets/136735745/03149de5-49ac-4628-842d-b743bf4974ad)
 
 Now i'm going to test if the new user has the proper permissions by logging in to the MySQL console again, this time using the custom user credentials:
 
-`mysql -u example_user -p` 
+`mysql -u example_user -p` and show the database running the command: `mysql> SHOW DATABASES;`
+
+
