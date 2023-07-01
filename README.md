@@ -128,3 +128,9 @@ Now im going to insert a few rows of content in the test table running the state
 
 `mysql> INSERT INTO example_database.todo_list (content) VALUES ("My first important item");` and confirm if the data was succesfully saved into my table running the commad:` mysql>  SELECT * FROM example_database.todo_list;` 
 
+![Screenshot 2023-06-30 092739](https://github.com/opeyemiogungbe/PBL-project2/assets/136735745/e5beefec-ff85-4d01-adac-2a558a53b940)
+
+After exiting Mysql i'm going to create a PHP script that will connect to MySQL and query for my database content. i'm creating a new PHP file in my custom web root directory using nano command editor. i'll run the command: 
+
+`nano /var/www/projectLEMP/todo_list.php`
+
