@@ -90,3 +90,24 @@ After putting the Php code inside the .Php file, i'll check my browser if the co
 
 
 ![Screenshot 2023-06-28 062126](https://github.com/opeyemiogungbe/PBL-project2/assets/136735745/b021d130-f158-428a-9953-26506e933e92)
+
+
+##  6 – RETRIEVING DATA FROM MYSQL DATABASE WITH PHP
+In this step i'm going to create a test database (DB) with simple “To do list” and configure access to it, so the Nginx website would be able to query the data from the DB and display it. i'll be creating a new user with the mysql_native_password authentication method in order to be able to connect to the MySQL database from PHP.
+
+After connecting to Mysql console, i'll be creating a new database called projectlemp database ( i decided to mix things up a bit) running the command: 
+
+`mysql> CREATE DATABASE `projectlemp_database`;` 
+
+Now i'm going to be creating a new user and grant him full privileges on the database i just created running the command: 
+
+`mysql>  CREATE USER 'example_user'@'%' IDENTIFIED WITH mysql_native_password BY 'password';` (Note: i changed the user password to a more secure password of my own) 
+
+Now i'm going to give the user permission over the projectlemp_database with the command:
+
+`mysql> GRANT ALL ON projectlemp_database.* TO 'example_user'@'%'; then exit Mysql.
+`
+
+Now i'm going to test if the new user has the proper permissions by logging in to the MySQL console again, this time using the custom user credentials:
+
+`mysql -u example_user -p` 
