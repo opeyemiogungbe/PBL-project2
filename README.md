@@ -140,3 +140,6 @@ The above image shows my todo_list.php file settings. (Note: i already chnaged t
 
 Now i'll be accessing the page on my web browser using my ppublic address/todo_list.php. The image below shows the result.
 
+![Screenshot 2023-06-30 102119](https://github.com/opeyemiogungbe/PBL-project2/assets/136735745/1df74cb6-3f7d-42ac-a76e-92120dc70250)
+
+We have successfully configured our LEMP stack and and request data from Mysql database with Php.
