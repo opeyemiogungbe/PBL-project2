@@ -118,4 +118,13 @@ Now i'm going to test if the new user has the proper permissions by logging in t
 
 `mysql -u example_user -p` and show the database running the command: `mysql> SHOW DATABASES;`
 
+![Screenshot 2023-06-30 090550](https://github.com/opeyemiogungbe/PBL-project2/assets/136735745/e188f905-9428-4eb9-83e5-a4339ff1c017)
+
+Now i'm going to create a test table named todo_list runing the following statement: 
+
+`CREATE TABLE example_database.todo_list (item_id INT AUTO_INCREMENT,content VARCHAR(255),PRIMARY KEY(item_id));`
+
+Now im going to insert a few rows of content in the test table running the statement:
+
+`mysql> INSERT INTO example_database.todo_list (content) VALUES ("My first important item");` and confirm if the data was succesfully saved into my table running the commad:` mysql>  SELECT * FROM example_database.todo_list;` 
 
