@@ -98,10 +98,13 @@ In this step i'm going to create a test database (DB) with simple â€œTo do listâ
 After connecting to Mysql console, i'll be creating a new database called projectlemp database ( i decided to mix things up a bit) running the command: 
 
 `mysql> CREATE DATABASE `projectlemp_database`;` 
+![Screenshot 2023-06-30 085616](https://github.com/opeyemiogungbe/PBL-project2/assets/136735745/0078a60f-bbf8-40f6-aa59-78e569190ebb)
+
 
 Now i'm going to be creating a new user and grant him full privileges on the database i just created running the command: 
 
 `mysql>  CREATE USER 'example_user'@'%' IDENTIFIED WITH mysql_native_password BY 'password';` (Note: i changed the user password to a more secure password of my own) 
+
 
 Now i'm going to give the user permission over the projectlemp_database with the command:
 
