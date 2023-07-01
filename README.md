@@ -134,3 +134,9 @@ After exiting Mysql i'm going to create a PHP script that will connect to MySQL 
 
 `nano /var/www/projectLEMP/todo_list.php`
 
+![Screenshot 2023-06-30 093939](https://github.com/opeyemiogungbe/PBL-project2/assets/136735745/6de0e008-7168-4633-af1f-284a17c49abb)
+
+The above image shows my todo_list.php file settings. (Note: i already chnaged the password to the user password for projectlamp databse)
+
+Now i'll be accessing the page on my web browser using my ppublic address/todo_list.php. The image below shows the result.
+
