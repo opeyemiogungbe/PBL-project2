@@ -98,6 +98,7 @@ In this step i'm going to create a test database (DB) with simple â€œTo do listâ
 After connecting to Mysql console, i'll be creating a new database called projectlemp database ( i decided to mix things up a bit) running the command: 
 
 `mysql> CREATE DATABASE `projectlemp_database`;` 
+
 ![Screenshot 2023-06-30 085616](https://github.com/opeyemiogungbe/PBL-project2/assets/136735745/0078a60f-bbf8-40f6-aa59-78e569190ebb)
 
 
@@ -105,11 +106,13 @@ Now i'm going to be creating a new user and grant him full privileges on the dat
 
 `mysql>  CREATE USER 'example_user'@'%' IDENTIFIED WITH mysql_native_password BY 'password';` (Note: i changed the user password to a more secure password of my own) 
 
+![Screenshot 2023-06-30 090011](https://github.com/opeyemiogungbe/PBL-project2/assets/136735745/2eeb1beb-4bd3-4414-a84a-ed4cbb5cf5ca)
 
 Now i'm going to give the user permission over the projectlemp_database with the command:
 
 `mysql> GRANT ALL ON projectlemp_database.* TO 'example_user'@'%'; then exit Mysql.
 `
+
 
 Now i'm going to test if the new user has the proper permissions by logging in to the MySQL console again, this time using the custom user credentials:
 
